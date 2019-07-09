@@ -9,7 +9,6 @@ exports.getAddProduct = (req, res, next) => {
             productCSS: true,
             activeAddProduct: true
         });
-    //res.sendFile(path.join(rootDir, 'views', 'add-product.html'));
 };
 
 exports.postAddProduct = (req, res, next) => {
@@ -30,6 +29,5 @@ exports.getProducts = (req, res, next) => {
                 pageTitle: 'Admin Products',
                 path: '/admin/products'
             });
-        //res.sendFile(path.join(rootDir, 'views', 'shop.html'));//For html file
     });
 };
